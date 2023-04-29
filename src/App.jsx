@@ -94,7 +94,7 @@ function App() {
   return (
     <>
       {alert.show && <Alert type={alert.tpe} text={alert.txt}/>}
-      <h1>Daily Expenses & Task</h1>
+      <h1>Daily Expenses & Tasks</h1>
       <main>
         <ExpenseForm
           Charge={chargen}
